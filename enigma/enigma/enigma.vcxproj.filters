@@ -15,8 +15,28 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream:enigma/enigma/enigma.vcxproj.filters
     <ClCompile Include="enigma.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+=======
+    <ClCompile Include="utiles.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utiles.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+>>>>>>> Stashed changes:EnigmpaP2/EnigmpaP2/EnigmpaP2.vcxproj.filters
   </ItemGroup>
 </Project>

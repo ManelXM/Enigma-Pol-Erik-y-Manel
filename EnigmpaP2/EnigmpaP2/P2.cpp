@@ -1,69 +1,79 @@
 #include "enigma.h"
 
 /**
- * AVANCE DE ROTORS: El primer rotor avanza siempre.
- * El segundo y tercero avanzan si el anterior llega a su letra_clave[cite: 35, 36, 37].
+ * AVANCE MECÁNICO DE LOS ROTORES
+ * Simula el movimiento de los engranajes. El primer rotor avanza con cada tecla.
+ * El segundo y tercero solo avanzan cuando el rotor anterior completa un ciclo
+ * (llega a su muesca o "letra clave").
  */
 void avanzarRotores(Rotor& r1, Rotor& r2, Rotor& r3) {
-    // Verificamos si el rotor 1 está en su letra_clave antes de moverlo
-    bool pasoLetraClaveR1 = (r1.cadena_de_letras[r1.posicion] == r1.letra_clave);
+    // 1. Detectamos si los rotores están en su posición de muesca antes de moverlos
+    // Esto es crucial porque la muesca es la que "empuja" al siguiente rotor.
+    bool r1EnMuesca = (r1.cadena_de_letras[r1.posicion] == r1.letra_clave);
 
-    // El primer rotor (rápido) siempre gira 1 paso [cite: 35, 103]
+    // 2. El Rotor 1 (el más rápido) siempre avanza una posición con cada pulsación
     r1.posicion = (r1.posicion + 1) % 26;
 
-    // Si R1 alcanzó su letra_clave, gira el segundo rotor (medio) [cite: 36]
-    if (pasoLetraClaveR1) {
-        bool pasoLetraClaveR2 = (r2.cadena_de_letras[r2.posicion] == r2.letra_clave);
+    // 3. Si el Rotor 1 activó su muesca, giramos el Rotor 2
+    if (r1EnMuesca) {
+        bool r2EnMuesca = (r2.cadena_de_letras[r2.posicion] == r2.letra_clave);
         r2.posicion = (r2.posicion + 1) % 26;
 
-        // Si R2 alcanzó su letra_clave, gira el tercer rotor (lento) [cite: 37]
-        if (pasoLetraClaveR2) {
+        // 4. Si el Rotor 2 también estaba en su muesca, giramos el Rotor 3 (el más lento)
+        if (r2EnMuesca) {
             r3.posicion = (r3.posicion + 1) % 26;
         }
     }
 }
 
 /**
- * CIFRADO: La letra entra por R1, luego R2 y finalmente R3[cite: 38].
+ * PROCESO DE CIFRADO
+ * Transforma una letra pasando la señal eléctrica a través de los tres rotores
+ * en el orden: Rotor 1 -> Rotor 2 -> Rotor 3.
  */
-char cifrarLetra(char lletra, Rotor& r1, Rotor& r2, Rotor& r3) {
-    // El avance ocurre antes de que la señal eléctrica pase por los rotores
+char cifrarLetra(char letra, Rotor& r1, Rotor& r2, Rotor& r3) {
+    // En la Enigma real, el rotor gira justo antes de que pase la corriente
     avanzarRotores(r1, r2, r3);
 
-    // Convertimos la letra A-Z a índice 0-25
-    int num = lletra - 'A';
+    // Normalizamos la letra de entrada (A-Z) a un índice numérico (0-25)
+    int num = letra - 'A';
 
-    // Paso por Rotor 1 -> Rotor 2 -> Rotor 3
-    // La fórmula aplica la sustitución según la cadena_de_letras y la posición actual
+    // PASO POR LOS ROTORES (Ida)
+    // Se aplica la sustitución según el cableado interno y la rotación actual.
+    // La fórmula compensa el desfase de la posición del rotor para que la entrada sea relativa.
     num = (r1.cadena_de_letras[(num + r1.posicion) % 26] - 'A' - r1.posicion + 26) % 26;
     num = (r2.cadena_de_letras[(num + r2.posicion) % 26] - 'A' - r2.posicion + 26) % 26;
     num = (r3.cadena_de_letras[(num + r3.posicion) % 26] - 'A' - r3.posicion + 26) % 26;
 
+    // Convertimos el índice final de nuevo a carácter A-Z
     return (char)(num + 'A');
 }
 
 /**
- * DESCIFRADO: Usa el cableado inverso y orden inverso (R3 -> R2 -> R1).
+ * PROCESO DE DESCIFRADO
+ * Realiza el camino inverso para recuperar la letra original.
+ * El orden de los rotores se invierte: Rotor 3 -> Rotor 2 -> Rotor 1.
  */
-char descifrarLetra(char lletra, Rotor& r1, Rotor& r2, Rotor& r3) {
-    // El avance debe ser idéntico al del cifrado para mantener la sincronía [cite: 59]
+char descifrarLetra(char letra, Rotor& r1, Rotor& r2, Rotor& r3) {
+    // El avance de rotores debe ser idéntico al del cifrado para mantener la sincronía
     avanzarRotores(r1, r2, r3);
 
-    int num = lletra - 'A';
+    int num = letra - 'A';
 
-    // Función auxiliar para buscar qué letra del alfabeto produce la letra de entrada
+    // Función Lambda para realizar la búsqueda inversa en el cableado del rotor
+    // En lugar de ver qué salida da una entrada, buscamos qué entrada daría esa salida.
     auto buscarInverso = [](int n, Rotor& r) {
-        // Buscamos qué letra está "viendo" el rotor en esa posición
+        // Determinamos qué letra física representa el contacto de salida
         char letraBuscada = (char)(((n + r.posicion) % 26) + 'A');
 
-        // Encontramos la posición de esa letra en la cadena_de_letras (búsqueda inversa)
+        // Buscamos en qué posición del cableado (cadena_de_letras) se encuentra esa letra
         int encontrada = r.cadena_de_letras.find(letraBuscada);
 
-        // Ajustamos por el giro del rotor
+        // Ajustamos el índice restando la rotación para obtener la entrada original
         return (encontrada - r.posicion + 26) % 26;
         };
 
-    // Para desxifrar, pasamos en orden inverso: 3 -> 2 -> 1 
+    // PASO POR LOS ROTORES (Vuelta)
     num = buscarInverso(num, r3);
     num = buscarInverso(num, r2);
     num = buscarInverso(num, r1);

@@ -1,2 +1,7 @@
-﻿  Pruebas.cpp
+﻿  main.cpp
+C:\Users\Usuario\Documents\GitHub\Enigma-Pol-y-Manel\EnigmpaP2\EnigmpaP2\main.cpp(41,21): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos
+  menu.cpp
+  Pruebas.cpp
+  utiles.cpp
+  Generando código...
   EnigmpaP2.vcxproj -> C:\Users\Usuario\Documents\GitHub\Enigma-Pol-y-Manel\EnigmpaP2\x64\Debug\EnigmpaP2.exe

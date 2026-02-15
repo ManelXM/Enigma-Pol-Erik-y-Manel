@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|solutionrelative:EnigmpaP2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|solutionrelative:EnigmpaP2\\menu.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|solutionrelative:EnigmpaP2\\menu.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\utiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|solutionrelative:EnigmpaP2\\utiles.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\Pruebas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|solutionrelative:EnigmpaP2\\Pruebas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\utiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|solutionrelative:EnigmpaP2\\utiles.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\Pol.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|solutionrelative:EnigmpaP2\\Pol.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\P2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{42D6F017-B3B2-477C-B0EC-02C35339A371}|EnigmpaP2\\EnigmpaP2.vcxproj|solutionrelative:EnigmpaP2\\P2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -23,25 +51,116 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\main.cpp",
+              "RelativeDocumentMoniker": "EnigmpaP2\\main.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\main.cpp",
+              "RelativeToolTip": "EnigmpaP2\\main.cpp",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwGQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T18:00:03.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "menu.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\menu.cpp",
+              "RelativeDocumentMoniker": "EnigmpaP2\\menu.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\menu.cpp",
+              "RelativeToolTip": "EnigmpaP2\\menu.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T17:59:41.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "menu.h",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\menu.h",
+              "RelativeDocumentMoniker": "EnigmpaP2\\menu.h",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\menu.h",
+              "RelativeToolTip": "EnigmpaP2\\menu.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T17:59:30.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "utiles.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\utiles.cpp",
+              "RelativeDocumentMoniker": "EnigmpaP2\\utiles.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\utiles.cpp",
+              "RelativeToolTip": "EnigmpaP2\\utiles.cpp",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwCkAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T17:58:57.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "utiles.h",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\utiles.h",
+              "RelativeDocumentMoniker": "EnigmpaP2\\utiles.h",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\utiles.h",
+              "RelativeToolTip": "EnigmpaP2\\utiles.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-15T17:58:24.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Pruebas.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\Pruebas.cpp",
+              "RelativeDocumentMoniker": "EnigmpaP2\\Pruebas.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\Pruebas.cpp",
+              "RelativeToolTip": "EnigmpaP2\\Pruebas.cpp",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAuwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T17:36:41.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pol.cpp",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\Pol.cpp",
+              "RelativeDocumentMoniker": "EnigmpaP2\\Pol.cpp",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\Pol.cpp",
+              "RelativeToolTip": "EnigmpaP2\\Pol.cpp",
+              "ViewState": "AgIAADkAAAAAAAAAAAAuwGEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-15T17:41:37.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "P2.h",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\P2.h",
               "RelativeDocumentMoniker": "EnigmpaP2\\P2.h",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\P2.h",
               "RelativeToolTip": "EnigmpaP2\\P2.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-02-13T11:48:43.231Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "P2.cpp",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\P2.cpp",
               "RelativeDocumentMoniker": "EnigmpaP2\\P2.cpp",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\GitHub\\Enigma-Pol-y-Manel\\EnigmpaP2\\EnigmpaP2\\P2.cpp",
               "RelativeToolTip": "EnigmpaP2\\P2.cpp",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAuwEcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAuwFEAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-02-13T11:48:26.78Z",
               "EditorCaption": ""
